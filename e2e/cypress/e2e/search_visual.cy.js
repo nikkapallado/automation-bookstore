@@ -1,6 +1,6 @@
 describe('Search for books - eyes', () => {
     beforeEach(() => {
-      cy.visit('/')
+      cy.visit('https://automationbookstore.dev/')
       cy.eyesOpen()
     })
   
