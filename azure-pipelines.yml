@@ -10,8 +10,7 @@ trigger:
 - chapter-7
 - chapter-10
 
-pool:
-  vmImage: ubuntu-latest
+pool: Self-agent-pool
 
 steps:
 - task: ArchiveFiles@2
