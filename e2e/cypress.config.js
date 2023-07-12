@@ -1,6 +1,10 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  reporter: "junit",
+  reporterOptions: {
+    "mochaFile": "results/TEST-[hash].xml"
+  },
   eyesIsDisabled: false,
   eyesFailCypressOnDiff: true,
   eyesDisableBrowserFetching: false,
