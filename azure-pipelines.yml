@@ -5,6 +5,10 @@
 
 trigger:
 - master
+- chapter-3
+- chapter-5
+- chapter-7
+- chapter-10
 
 pool:
   vmImage: ubuntu-latest
